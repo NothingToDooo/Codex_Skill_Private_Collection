@@ -1,0 +1,7 @@
+interface:
+  display_name: "Project Agents Learning"
+  short_description: "Create or update AGENTS.md from project learning state"
+  default_prompt: "Use $project-agents-learning to refresh this project's `AGENTS.md` from transcript learning state."
+
+policy:
+  allow_implicit_invocation: false
